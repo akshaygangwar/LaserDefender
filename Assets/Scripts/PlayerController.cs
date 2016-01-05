@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour {
 	public AudioClip fireSound;
 
 	public float firingRate = 0.2f;
-	public float health = 250f;
+	public float health = 100f;
 
 	float xmin;
 	float xmax;
@@ -70,6 +70,10 @@ public class PlayerController : MonoBehaviour {
 			
 		}
 		
+	}
+
+	public float getHealth() {
+		return this.health;
 	}
 
 	public void LoadNextLevel() {

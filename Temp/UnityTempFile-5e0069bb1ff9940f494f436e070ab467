@@ -57,6 +57,7 @@
 -define:UNITY_EDITOR_OSX
 'Assets/Scripts/EnemyBehaviour.cs'
 'Assets/Scripts/EnemySpawner.cs'
+'Assets/Scripts/HealthDisplay.cs'
 'Assets/Scripts/LevelManager.cs'
 'Assets/Scripts/PlayerController.cs'
 'Assets/Scripts/Position.cs'

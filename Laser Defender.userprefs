@@ -1,9 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../VR_Packt/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController.cs">
     <Files>
-      <File FileName="../VR_Packt/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs" Line="1" Column="1" />
-      <File FileName="../VR_Packt/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs" Line="24" Column="22" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="68" Column="21" />
+      <File FileName="Assets/Scripts/EnemyBehaviour.cs" Line="47" Column="65" />
+      <File FileName="Assets/Scripts/LevelManager.cs" Line="20" Column="3" />
+      <File FileName="Assets/Scripts/Projectile.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

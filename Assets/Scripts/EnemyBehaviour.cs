@@ -3,7 +3,7 @@ using System.Collections;
 
 public class EnemyBehaviour : MonoBehaviour {
 
-	public float health = 150f;
+	public float health = 50f;
 	public GameObject enemyProjectile;
 	public float enemyLaserSpeed = 5f;
 	public AudioClip fireSound;
