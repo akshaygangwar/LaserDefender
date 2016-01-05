@@ -12,11 +12,14 @@ public class PlayerController : MonoBehaviour {
 	public float firingRate = 0.2f;
 	public float health = 100f;
 
+	private LivesDisplay livesDisplay;
+
 	float xmin;
 	float xmax;
 
 	// Use this for initialization
 	void Start () {
+		livesDisplay = GameObject.Find ("Lives").GetComponent<LivesDisplay> ();
 		float distance = transform.position.z - Camera.main.transform.position.z;
 		Vector3 leftmost = Camera.main.ViewportToWorldPoint (new Vector3 (0, 0, distance));
 		Vector3 rightmost = Camera.main.ViewportToWorldPoint (new Vector3 (1, 0, distance));
@@ -64,8 +67,16 @@ public class PlayerController : MonoBehaviour {
 			missile.Hit();
 			
 			if(health <= 0) {
-				Destroy(gameObject);
-				LoadNextLevel();
+				int remainingLives = livesDisplay.getLives();
+				if(remainingLives <= 0){
+					Destroy(gameObject);
+					LoadNextLevel();
+				}
+				else {
+					remainingLives--;
+					livesDisplay.setLives(remainingLives);
+					health = 100f;
+				}
 			}
 			
 		}
