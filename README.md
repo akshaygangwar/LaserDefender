@@ -17,4 +17,9 @@ I will be including links to PC/MAC/Android builds soon.
 * While there are no errors in the code, there are multiple improvements that I intend on making soon. 
 * The UI might not appeal to people very much, but that's because I'm not a UI expert and do not dedicate a lot of time to UI tweaks. If you can think of improvements, let me know and I will implement them, or feel free to implement them yourselves.
 
+
+### Upcoming ###
+Will be adding animations to ships getting destroyed.  
+Also, power ups might be added at the same time (or in a later update...)  
+
 ### Code and General Feedback can be sent to [Akshay Gangwar](http://www.akshaygangwar.in/contactme.html)
